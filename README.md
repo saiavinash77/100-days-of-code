@@ -65,9 +65,10 @@ Track my progress in [`log.md`](log.md) — updated regularly with what I learn,
 
 ## ✨ Connect & Collaborate
 
-If you're into ethical hacking, GenAI, or building mindful tech — let’s connect!  
+If you're into  GenAI, or building mindful tech — let’s connect!  
 Drop a ⭐ on this repo or reach out on LinkedIn. I’m always up for a good challenge or collab.
 
+https://www.linkedin.com/in/sai-avinash-mandali-6a897b304/
 ---
 
 Made with curiosity, caffeine, and code 💻⚡
