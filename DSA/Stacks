@@ -1,1 +1,302 @@
-
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOUbOeUTJK4Av5EIhQ7Wguw",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/saiavinash77/100-days-of-code/blob/main/DSA/Stacks\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# STACKS ARE USER DEFINED DATA STRUCTIRES"
+      ],
+      "metadata": {
+        "id": "Us7UtCAi6L3d"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Where In this i not only learnt the operations which is done by\n",
+        "# using some built in methods and calling them but i\n",
+        "# also understand the behind logic like how these are going to work\n",
+        "# and when to use mean situation will demand this to use this"
+      ],
+      "metadata": {
+        "id": "L32tJh-UC5eN"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "oeRxMWH-4rnD"
+      },
+      "outputs": [],
+      "source": [
+        "# Main operations of stack will be\n",
+        "    # 1.push(append)\n",
+        "\n",
+        "    # 2.pop\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "stack  = []\n",
+        "\n",
+        "stack.append(10)"
+      ],
+      "metadata": {
+        "id": "1GajaGkU6Kyo"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "stack"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ty1Nkqx86kyl",
+        "outputId": "c0dd1240-1e99-4472-b6dc-29f1c718f948"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "[10]"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 3
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "stack.append(20)"
+      ],
+      "metadata": {
+        "id": "G3lxZKFk6l2l"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "stack.append(40)"
+      ],
+      "metadata": {
+        "id": "FapFCTSw6oMU"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "stack.append(50)"
+      ],
+      "metadata": {
+        "id": "EviQxfc76r4X"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "stack"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_NmFmN366tc3",
+        "outputId": "6bdef97d-e23e-42f5-c716-878a5e769a9b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "[10, 20, 40, 50]"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 9
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "stack.pop(3)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "y-vJKLF36v2p",
+        "outputId": "9b683184-684e-4df4-c471-d6c3f3dd3ba7"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "50"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 12
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "stack"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3eczqhD164xB",
+        "outputId": "c9549eba-e815-4be0-d2dd-93e1e439c981"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "[10, 20, 40]"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 13
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## **We are writing to use stack with functions**\n"
+      ],
+      "metadata": {
+        "id": "VTwSRtBI7PbK"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "stack = []\n",
+        "def push():\n",
+        "  element = int(input(\"Enter elements :\"))\n",
+        "  stack.append(element)\n",
+        "  return stack\n",
+        "\n",
+        "def pop_element():\n",
+        "  if not stack:\n",
+        "    return \"Empty Stack \"\n",
+        "  else:\n",
+        "    e = stack.pop()\n",
+        "    print(\"removed Element\",e)\n",
+        "    print(stack)\n",
+        "\n",
+        "\n",
+        "while True:\n",
+        "\n",
+        "  choice = int(input(\"Select the operation u want to do it ,1.push(append) ,2.pop,3.quit,4.show stack elements :\"))\n",
+        "  if choice == 1:\n",
+        "    push()\n",
+        "\n",
+        "  elif choice == 2:\n",
+        "    pop_element()\n",
+        "  elif choice == 3:\n",
+        "    break\n",
+        "  elif choice == 4:\n",
+        "    print(stack)\n",
+        "  else:\n",
+        "    print(\"Invalid Operation ..\")\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "DoqL2T8869S8",
+        "outputId": "bce4d219-a719-4ccd-883b-947b6bcb1986"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Select the operation u want to do it ,1.push(append) ,2.pop,3.quit,4.show stack elements :1\n",
+            "Enter elements :123\n",
+            "Select the operation u want to do it ,1.push(append) ,2.pop,3.quit,4.show stack elements :1\n",
+            "Enter elements :223\n",
+            "Select the operation u want to do it ,1.push(append) ,2.pop,3.quit,4.show stack elements :4\n",
+            "[123, 223]\n",
+            "Select the operation u want to do it ,1.push(append) ,2.pop,3.quit,4.show stack elements :2\n",
+            "removed Element 223\n",
+            "[123]\n",
+            "Select the operation u want to do it ,1.push(append) ,2.pop,3.quit,4.show stack elements :2\n",
+            "removed Element 123\n",
+            "[]\n",
+            "Select the operation u want to do it ,1.push(append) ,2.pop,3.quit,4.show stack elements :4\n",
+            "[]\n",
+            "Select the operation u want to do it ,1.push(append) ,2.pop,3.quit,4.show stack elements :2\n",
+            "Select the operation u want to do it ,1.push(append) ,2.pop,3.quit,4.show stack elements :2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "gz8x7nRA9-3B"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
